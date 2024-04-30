@@ -1,0 +1,43 @@
+.task-list{
+    display:flex;
+    justify-content: space-around;
+    color:#ffffff;
+}
+.task-item{
+    padding:10px;
+    border: 1px solid rgb(221, 205, 65);
+    border-radius: 5px;
+    margin:10px;
+    margin-left:10px;
+    max-width:450px;
+    max-height: 250px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.task-heading{
+    font-size: 32px;
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: Roboto;
+    margin-bottom: 20px;
+}
+.Complete-task-btn{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border:none;
+    border-radius: 5px;
+    background-color: #06c0f8;
+    color:#ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.completed{
+    background-color: rgb(15, 182, 15);
+    border: none;
+}
